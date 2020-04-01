@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Keaz</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string translatable="true" name="title_accounts">Comptes</string>
+    <string translatable="true" name="title_operations">Opérations</string>
+    <string translatable="true" name="title_cards_and_services">Cartes et services</string>
+    <string translatable="true" name="title_settings">Paramètres</string>
 </resources>

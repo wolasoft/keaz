@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Keaz</string>
+    <string translatable="true" name="title_accounts">Accounts</string>
+    <string translatable="true" name="title_operations">Operations</string>
+    <string translatable="true" name="title_cards_and_services">Cards and services</string>
+    <string translatable="true" name="title_settings">Settings</string>
+</resources>

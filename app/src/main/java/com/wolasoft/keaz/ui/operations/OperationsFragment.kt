@@ -1,4 +1,4 @@
-package com.wolasoft.keaz.ui.dashboard
+package com.wolasoft.keaz.ui.operations
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.wolasoft.keaz.R
 
-class DashboardFragment : Fragment() {
+class OperationsFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var operationsViewModel: OperationsViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
+        operationsViewModel =
+                ViewModelProviders.of(this).get(OperationsViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_operations, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
-        dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
+        operationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
