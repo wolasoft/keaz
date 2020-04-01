@@ -3,23 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_accounts">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.wolasoft.keaz.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_accounts"
+        android:name="com.wolasoft.keaz.ui.accounts.AccountsFragment"
+        android:label="@string/title_accounts"
+        tools:layout="@layout/fragment_accounts" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.wolasoft.keaz.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_operations"
+        android:name="com.wolasoft.keaz.ui.operations.OperationsFragment"
+        android:label="@string/title_operations"
+        tools:layout="@layout/fragment_operations" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.wolasoft.keaz.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_cards_and_services"
+        android:name="com.wolasoft.keaz.ui.cardsandservices.CardsAndServicesFragment"
+        android:label="@string/title_cards_and_services"
+        tools:layout="@layout/fragment_cards_and_services" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.wolasoft.keaz.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
