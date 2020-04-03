@@ -2,4 +2,33 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--font sizes-->
+    <dimen name="material_text_button">14sp</dimen>
+    <dimen name="material_text_menu">14sp</dimen>
+    <dimen name="material_text_caption">12sp</dimen>
+    <dimen name="material_text_body1">14sp</dimen>
+    <dimen name="material_text_body2">13sp</dimen>
+    <dimen name="material_text_subhead">16sp</dimen>
+    <dimen name="material_text_title">20sp</dimen>
+    <dimen name="material_text_headline">24sp</dimen>
+    <dimen name="material_text_display1">34sp</dimen>
+    <dimen name="material_text_display2">45sp</dimen>
+    <dimen name="material_text_display3">56sp</dimen>
+    <dimen name="material_text_display4">112sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- spacer. -->
+    <dimen name="spacer4">16dp</dimen>
+    <dimen name="spacer6">24dp</dimen>
+    <dimen name="spacer8">32dp</dimen>
+    <dimen name="spacer12">48dp</dimen>
+
+    <!-- Launch screen margins. -->
+    <dimen name="launch_logo_width">134dp</dimen>
+    <dimen name="launch_logo_height">134dp</dimen>
+    <dimen name="launch_logo_margin_top">127dp</dimen>
+    <dimen name="launch_login_button_margin_bottom">@dimen/spacer8</dimen>
 </resources>
