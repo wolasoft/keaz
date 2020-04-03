@@ -4,4 +4,11 @@
     <string translatable="true" name="title_operations">Operations</string>
     <string translatable="true" name="title_cards_and_services">Cards and services</string>
     <string translatable="true" name="title_settings">Settings</string>
+
+    <!-- launch -->
+    <string name="launch_welcome_message" translatable="true">Welcome to Orabank KEAZ</string>
+    <string name="launch_welcome_sub_message" translatable="true">Click, control, enjoy...</string>
+    <string name="launch_login_button_message" translatable="true">Login</string>
+    <string name="launch_subscribe_button_message" translatable="true">First time? Subscribe</string>
+    <string name="launch_logo_description" translatable="true">Logo of Keaz</string>
 </resources>
