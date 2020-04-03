@@ -11,4 +11,12 @@
     <string name="launch_login_button_message" translatable="true">S’identifier</string>
     <string name="launch_subscribe_button_message" translatable="true">Première utilisation ? S’enroler</string>
     <string name="launch_logo_description" translatable="true">Logo de Keaz</string>
+
+    <!-- login -->
+    <string name="login_title" translatable="true">Se connecter à son compte</string>
+    <string name="login_sub_title" translatable="true">Entrer votre identifiant et mot de passe pour accéder à votre compte MyKeaz</string>
+    <string name="login_identifier_hint" translatable="true">Identifiant</string>
+    <string name="login_password_hint" translatable="true">Mot de passe</string>
+    <string name="login_login_mesage" translatable="true">Se connecter</string>
+    <string name="login_password_forgotten_mesage" translatable="true">Mot de passe oublié ?</string>
 </resources>

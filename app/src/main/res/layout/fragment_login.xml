@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacer8"
+    tools:context=".ui.login.LoginFragment">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/headline.green.bold"
+        android:text="@string/login_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/login_password_forgotten_margin_bottom"
+        />
+
+    <TextView
+        android:id="@+id/subTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/subhead.text.medium"
+        android:text="@string/login_sub_title"
+        android:layout_marginTop="@dimen/spacer4"
+        app:layout_constraintTop_toBottomOf="@id/titleTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/login_password_forgotten_margin_bottom"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/identifierHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_layout"
+        android:layout_marginTop="@dimen/spacer40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subTitleTV"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/subhead.text.medium"
+            android:hint="@string/login_identifier_hint"
+            android:padding="@dimen/spacer4"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_layout"
+        app:boxCornerRadiusTopStart="@dimen/spacer2_5"
+        app:boxCornerRadiusTopEnd="@dimen/spacer2_5"
+        app:boxCornerRadiusBottomStart="@dimen/spacer2_5"
+        app:boxCornerRadiusBottomEnd="@dimen/spacer2_5"
+        android:layout_marginTop="@dimen/spacer8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/identifierHolder"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/subhead.text.medium"
+            android:padding="@dimen/spacer4"
+            android:inputType="textPassword"
+            android:hint="@string/login_password_hint"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_primary"
+        android:text="@string/login_login_mesage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/passwordForgottenTV"
+        android:layout_marginBottom="@dimen/spacer12"
+        />
+
+    <TextView
+        android:id="@+id/passwordForgottenTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/subhead.text.medium"
+        android:text="@string/login_password_forgotten_mesage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/login_password_forgotten_margin_bottom"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/global_navigation"
+    app:startDestination="@id/launchFragment">
+
+    <fragment
+        android:id="@+id/launchFragment"
+        android:name="com.wolasoft.keaz.ui.launch.LaunchFragment"
+        android:label="fragment_launch"
+        tools:layout="@layout/fragment_launch" >
+        <action
+            android:id="@+id/actionLoginFragment"
+            app:destination="@id/loginFragment"
+            />
+        <action
+            android:id="@+id/actionPlaceHolder"
+            app:destination="@id/placeholder"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.wolasoft.keaz.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login"
+        />
+
+    <include
+        android:id="@+id/main_navigation"
+        app:graph="@navigation/main_navigation"
+        />
+
+    <fragment android:id="@+id/placeholder" >
+        <action
+            android:id="@+id/action_placeholder_to_placeholder2"
+            app:destination="@id/placeholder2"
+            />
+    </fragment>
+
+    <fragment android:id="@+id/placeholder2" >
+        <action
+            android:id="@+id/action_placeholder2_to_mobile_navigation"
+            app:destination="@id/main_navigation"
+            />
+    </fragment>
+
+</navigation>

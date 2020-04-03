@@ -21,14 +21,19 @@
     <dimen name="text_margin">16dp</dimen>
 
     <!-- spacer. -->
+    <dimen name="spacer2_5">10dp</dimen>
     <dimen name="spacer4">16dp</dimen>
     <dimen name="spacer6">24dp</dimen>
     <dimen name="spacer8">32dp</dimen>
     <dimen name="spacer12">48dp</dimen>
+    <dimen name="spacer40">160dp</dimen>
 
     <!-- Launch screen margins. -->
     <dimen name="launch_logo_width">134dp</dimen>
     <dimen name="launch_logo_height">134dp</dimen>
     <dimen name="launch_logo_margin_top">127dp</dimen>
     <dimen name="launch_login_button_margin_bottom">@dimen/spacer8</dimen>
+
+    <!-- Login screen margins. -->
+    <dimen name="login_password_forgotten_margin_bottom">51dp</dimen>
 </resources>
