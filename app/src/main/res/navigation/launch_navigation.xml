@@ -11,13 +11,12 @@
         android:label="fragment_launch"
         tools:layout="@layout/fragment_launch" >
         <action
-            android:id="@+id/actionLoginFragment"
+            android:id="@+id/actionOpenLoginFragment"
             app:destination="@id/loginFragment"
             />
         <action
-            android:id="@+id/actionPlaceHolder"
-            app:destination="@id/placeholder"
-            />
+            android:id="@+id/actionOpenSubscribeFragment"
+            app:destination="@id/subscribeFragment" />
     </fragment>
 
     <fragment
@@ -25,19 +24,27 @@
         android:name="com.wolasoft.keaz.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login"
-        />
+        >
+        <action
+            android:id="@+id/actionOpenMainActivity"
+            app:destination="@id/main_navigation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subscribeFragment"
+        android:name="com.wolasoft.keaz.ui.subscribe.SubscribeFragment"
+        android:label="fragment_subscribe"
+        tools:layout="@layout/fragment_subscribe"
+        >
+        <action
+            android:id="@+id/actionOpenConfirmationPlaceholder"
+            app:destination="@id/placeholder2" />
+    </fragment>
 
     <include
         android:id="@+id/main_navigation"
         app:graph="@navigation/main_navigation"
         />
-
-    <fragment android:id="@+id/placeholder" >
-        <action
-            android:id="@+id/action_placeholder_to_placeholder2"
-            app:destination="@id/placeholder2"
-            />
-    </fragment>
 
     <fragment android:id="@+id/placeholder2" >
         <action

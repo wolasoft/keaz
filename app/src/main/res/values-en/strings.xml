@@ -19,4 +19,13 @@
     <string name="login_password_hint" translatable="true">Password</string>
     <string name="login_login_mesage" translatable="true">Sign in</string>
     <string name="login_password_forgotten_mesage" translatable="true">Password forgotten ?</string>
+
+    <!-- subscribe -->
+    <string name="subscribe_title" translatable="true">Subscribe to Keaz</string>
+    <string name="subscribe_sub_title" translatable="true">Renseignez les differentes informations de votre compte Orabank pour acceder à votre banque en ligne.</string>
+    <string name="subscribe_account_number_hint" translatable="true">Account number without RIB key</string>
+    <string name="subscribe_identifier_hint" translatable="true">Choose an identifier</string>
+    <string name="subscribe_password_hint" translatable="true">Define a password</string>
+    <string name="subscribe_password_confirmation_hint" translatable="true">Confirm password</string>
+    <string name="subscribe_login_mesage" translatable="true">Subscribe</string>
 </resources>
