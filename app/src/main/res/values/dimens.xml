@@ -26,6 +26,8 @@
     <dimen name="spacer6">24dp</dimen>
     <dimen name="spacer8">32dp</dimen>
     <dimen name="spacer12">48dp</dimen>
+    <dimen name="spacer17_5">70dp</dimen>
+    <dimen name="spacer24">96dp</dimen>
     <dimen name="spacer40">160dp</dimen>
 
     <!-- Launch screen margins. -->

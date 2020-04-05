@@ -8,6 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorControlNormal">@color/colorBlack</item>
+    </style>
+
     <style name="subhead">
         <item name="android:textSize">@dimen/material_text_subhead</item>
         <item name="android:fontFamily">@font/proxima_nova_regular</item>

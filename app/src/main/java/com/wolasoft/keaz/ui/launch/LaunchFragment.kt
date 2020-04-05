@@ -27,6 +27,9 @@ class LaunchFragment : Fragment() {
         dataBinding.loginBT.setOnClickListener {
             listener?.onLoginClicked()
         }
+        dataBinding.subscribeBT.setOnClickListener {
+            listener?.onSubscribeClicked()
+        }
         return dataBinding.root
     }
 
